@@ -16,6 +16,7 @@
         {
             background: url(images/cover_overlay.png) no-repeat center/100% 100% ,url(images/cover.jpg) no-repeat center/cover;
             height: 360px;
+            position: relative;
         }
 
         img.cover-profile 
@@ -41,6 +42,27 @@
             position: relative;
             text-align: center;
         }
+
+        div.cover-conctact {
+            background-color: tomato;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            border-left: 4px solid rgb(161, 55, 55);
+            padding-left: 8px;
+
+        }
+
+        div .cover-conctact p {
+            text-align: left;
+        }
+
+        div .cover-conctact a {
+            color: white;
+            font-size: 14px;
+
+        }
+
     </style>
     
 </head>
@@ -50,6 +72,11 @@
         <img class = "cover-profile" src="images/profile.jpg" />
         <h1>Japhet KOYAKOSSO-ESSO</h1>
         <p>Développeur / Data junior</p>
+
+        <div class= "cover-conctact">
+           <p> <a href="mailto:japhetkoyakossoesso@gmail.com?subject=Contact%20depuis%20japhetkoyakossoesso@gmail.com" title="Contact depuis japhetkoyakossoesso@gmail.com">japhetkoyakossoesso@gmail.com</a> </p>
+           <p> <a href="tel:+33773761401">0773761401</a> </p>
+        </div>:
     </div>
 </body>
 </html>
